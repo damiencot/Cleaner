@@ -1,0 +1,27 @@
+﻿<Window x:Class="Cleaner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cleaner"
+        mc:Ignorable="d"
+        Title="Cleaner" Height="596" Width="993" ResizeMode="NoResize"
+        Name="mainFrame">
+    <Grid>
+        <Rectangle HorizontalAlignment="Center" Height="161" Stroke="Black" VerticalAlignment="Top" Width="993" Fill="#FF2374CB"/>
+        <Label x:Name="title" Content="Analyse du PC necessaire" HorizontalAlignment="Left" Margin="14,10,0,0" VerticalAlignment="Top" Height="66" Width="505" FontSize="40" Foreground="#FFFCFAFA" FontWeight="Bold"/>
+        <Label Content="Dernier Analyse :" HorizontalAlignment="Left" Margin="25,114,0,0" VerticalAlignment="Top" Foreground="White" FontSize="24" FontWeight="Bold"/>
+        <Label x:Name="espace" Content="???" HorizontalAlignment="Left" Margin="244,72,0,0" VerticalAlignment="Top" Foreground="White" FontSize="24" Width="235"/>
+        <Label x:Name="date" Content="??? " HorizontalAlignment="Left" Margin="228,114,0,0" VerticalAlignment="Top" Foreground="White" FontSize="24" Width="235"/>
+        <Button Content="ANALYSE" HorizontalAlignment="Left" Margin="584,34,0,0" VerticalAlignment="Top" Height="94" Width="282" BorderThickness="6,6,6,6" Background="#FF2374CB" FontFamily="Arial Narrow" FontSize="32" BorderBrush="#FFF0DADA" Foreground="#FFD1C6C6"/>
+        <Rectangle HorizontalAlignment="Center" Height="36" Margin="0,544,0,0" Stroke="#FF8F9499" VerticalAlignment="Top" Width="993" Fill="#FFCA3D3D" Visibility="Hidden"/>
+        <Rectangle HorizontalAlignment="Center" Height="50" Margin="0,492,0,0" Stroke="#FF2374CB" VerticalAlignment="Top" Width="993"/>
+        <Label Content="Copyright 2020 - Keorus
+               " HorizontalAlignment="Left" Margin="406,501,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Arial Narrow"/>
+        <Button x:Name="btn_historique" Content="HISTORIQUE" HorizontalAlignment="Left" Margin="566,166,0,0" VerticalAlignment="Top" Height="145" Width="281" BorderThickness="6,6,6,6" Background="#FF2374CB" FontFamily="Arial Narrow" FontSize="32" BorderBrush="#FFF0DADA" Foreground="#FFD1C6C6"/>
+        <Button x:Name="btn_nettoyer" Content="NETOYER" HorizontalAlignment="Left" Margin="179,168,0,0" VerticalAlignment="Top" Height="143" Width="284" BorderThickness="6,6,6,6" Background="#FF2374CB" FontFamily="Arial Narrow" FontSize="32" BorderBrush="#FFF0DADA" Foreground="#FFD1C6C6" Click="Button_Nettoyer_Click"/>
+        <Button x:Name="btn_site" Content="SITE WEB" HorizontalAlignment="Left" Margin="566,316,0,0" VerticalAlignment="Top" Height="150" Width="281" BorderThickness="6,6,6,6" Background="#FF2374CB" FontFamily="Arial Narrow" FontSize="32" BorderBrush="#FFF0DADA" Foreground="#FFD1C6C6"/>
+        <Button x:Name="btn_mise_a_jour" Content="MISE A JOUR" HorizontalAlignment="Left" Margin="179,316,0,0" VerticalAlignment="Top" Height="148" Width="284" BorderThickness="6,6,6,6" Background="#FF2374CB" FontFamily="Arial Narrow" FontSize="32" BorderBrush="#FFF0DADA" Foreground="#FFD1C6C6" Click="btn_mise_a_jour_Click"/>
+
+    </Grid>
+</Window>
